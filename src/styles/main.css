@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    border-bottom: 5px ridge #daa520;
+}
+
+.panel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 2px ridge #c5941a;
+    background-color: #f2eabf;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    /* deixa a imagem do tamanho do container que se encontra */
+    background-size: cover; 
+    
+
+}
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* forma de pegar os dois h2, sem mexer no demais itens/ colocando uma margem no topo */
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2)
+{
+    margin-top: 1rem;
+}
