@@ -37,10 +37,8 @@
 
 .enemy {
     background-image: url("../images/ralph.png");
-    /* deixa a imagem do tamanho do container que se encontra */
     background-size: cover; 
     
-
 }
 .menu-lives {
     display: flex;
@@ -48,7 +46,6 @@
     justify-content: center;
 }
 
-/* forma de pegar os dois h2, sem mexer no demais itens/ colocando uma margem no topo */
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2)
 {
